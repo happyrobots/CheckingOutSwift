@@ -3,10 +3,9 @@ import UIKit
 
 class FriendsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    @IBOutlet
-    var tableView: UITableView
+    @IBOutlet weak var tableView: UITableView!
 
-    var items: Friend[] = [
+    var items: [Friend] = [
         Friend(name: "Dogs"),
         Friend(name: "Cats"),
         Friend(),

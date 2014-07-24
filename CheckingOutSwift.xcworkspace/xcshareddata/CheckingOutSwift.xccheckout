@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5E4315EC-0C0C-491B-9BE1-B28545F66B5E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CheckingOutSwift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>49373D72-F430-4D15-9114-64786A484654</key>
+		<string>ssh://github.com/nmutiara/CheckingOutSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CheckingOutSwift.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>49373D72-F430-4D15-9114-64786A484654</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/nmutiara/CheckingOutSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>49373D72-F430-4D15-9114-64786A484654</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>49373D72-F430-4D15-9114-64786A484654</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CheckingOutSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
