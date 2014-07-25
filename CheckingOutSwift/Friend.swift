@@ -24,20 +24,18 @@ class Friend {
         self.motto = motto
         self.image = image
     }
+}
 
-    class func allComp() -> [Friend] {
-        return [
-            Friend(name: "Noob Trader", motto: "I know everything", image: nil),
-            Friend(name: "Super Rich Trader", motto: "I have no money", image: nil),
-            Friend(name: "Okay Trader", motto: "I'm okay", image: nil)
-        ]
+class RandomCompFriendPicker {
+    var friends = [
+        Friend(name: "Noob Trader", motto: "I know everything", image: UIImage(named: "trader-noob")),
+        Friend(name: "Super Rich Trader", motto: "I have no money", image: UIImage(named: "trader-expert")),
+        Friend(name: "Okay Trader", motto: "I'm okay", image: UIImage(named: "trader-okay"))
+    ]
+
+    func pick() -> Friend {
+        var listCount = friends.count
+        var i = Int(arc4random() % UInt32(listCount))
+        return friends[i]
     }
-
-    class func random() -> Friend {
-        var list = allComp()
-        var listCount = list.count
-        var i = Int(rand()) % listCount
-        return allComp()[i]
-    }
-
 }

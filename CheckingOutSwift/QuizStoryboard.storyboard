@@ -39,19 +39,20 @@
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUg-rT-0Za">
                                 <rect key="frame" x="20" y="476" width="280" height="48"/>
+                                <color key="backgroundColor" red="0.90993398427963257" green="0.49550628662109375" blue="0.015433979220688343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="V48-ij-906"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <state key="normal" title="Continue">
-                                    <color key="titleColor" red="0.1215686351" green="0.56078433989999998" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="didTapContinueButton:" destination="nlG-tS-HsI" eventType="touchUpInside" id="uUA-GZ-P0H"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P4i-Qt-g8I">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P4i-Qt-g8I">
                                 <rect key="frame" x="20" y="121" width="280" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="mfe-dM-gk3"/>
@@ -154,27 +155,27 @@
                                             <rect key="frame" x="0.0" y="0.0" width="306.5" height="64"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="diZ-WZ-6JU">
+                                                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="diZ-WZ-6JU">
                                                     <rect key="frame" x="10" y="10" width="286.5" height="44"/>
-                                                    <color key="backgroundColor" red="0.52941179279999995" green="0.81568634510000004" blue="0.23921570180000001" alpha="1" colorSpace="deviceRGB"/>
+                                                    <color key="backgroundColor" red="0.11948087066411972" green="0.80619841814041138" blue="0.42862322926521301" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                             <integer key="value" value="20"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXg-QX-pjm">
-                                                    <rect key="frame" x="10" y="10" width="36" height="36"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXg-QX-pjm">
+                                                    <rect key="frame" x="13" y="12" width="36" height="36"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="36" id="Rhy-1x-KZ1"/>
                                                         <constraint firstAttribute="height" constant="36" id="Yc9-7c-ysu"/>
                                                     </constraints>
-                                                    <state key="normal">
+                                                    <state key="normal" image="radio-checked.png">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                 </button>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13i-yi-QYt">
-                                                    <rect key="frame" x="44" y="10" width="254.5" height="46"/>
+                                                    <rect key="frame" x="54" y="10" width="242.5" height="46"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -186,13 +187,13 @@
                                             <constraint firstAttribute="bottom" secondItem="diZ-WZ-6JU" secondAttribute="bottom" constant="10" id="7Q8-VA-fWS"/>
                                             <constraint firstItem="diZ-WZ-6JU" firstAttribute="leading" secondItem="JQg-zG-1Ay" secondAttribute="leading" constant="10" id="DF9-QQ-iZa"/>
                                             <constraint firstItem="13i-yi-QYt" firstAttribute="top" secondItem="JQg-zG-1Ay" secondAttribute="top" constant="10" id="J7m-Nd-yd1"/>
-                                            <constraint firstAttribute="trailing" secondItem="13i-yi-QYt" secondAttribute="trailing" constant="8" id="MJt-Id-2yt"/>
+                                            <constraint firstAttribute="trailing" secondItem="13i-yi-QYt" secondAttribute="trailing" constant="10" id="MJt-Id-2yt"/>
                                             <constraint firstItem="diZ-WZ-6JU" firstAttribute="top" secondItem="JQg-zG-1Ay" secondAttribute="top" constant="10" id="Ufs-7L-YB2"/>
-                                            <constraint firstItem="13i-yi-QYt" firstAttribute="leading" secondItem="JQg-zG-1Ay" secondAttribute="leading" constant="44" id="XAp-Wx-ked"/>
+                                            <constraint firstItem="13i-yi-QYt" firstAttribute="leading" secondItem="JQg-zG-1Ay" secondAttribute="leading" constant="54" id="XAp-Wx-ked"/>
                                             <constraint firstAttribute="bottom" secondItem="13i-yi-QYt" secondAttribute="bottom" constant="8" id="ZKj-cj-esA"/>
                                             <constraint firstAttribute="trailing" secondItem="diZ-WZ-6JU" secondAttribute="trailing" constant="10" id="a09-b2-GYN"/>
-                                            <constraint firstItem="BXg-QX-pjm" firstAttribute="leading" secondItem="JQg-zG-1Ay" secondAttribute="leading" constant="10" id="hPo-Fr-PbQ"/>
-                                            <constraint firstItem="BXg-QX-pjm" firstAttribute="top" secondItem="JQg-zG-1Ay" secondAttribute="top" constant="10" id="nFt-3k-SLK"/>
+                                            <constraint firstItem="BXg-QX-pjm" firstAttribute="leading" secondItem="JQg-zG-1Ay" secondAttribute="leading" constant="13" id="hPo-Fr-PbQ"/>
+                                            <constraint firstItem="BXg-QX-pjm" firstAttribute="top" secondItem="JQg-zG-1Ay" secondAttribute="top" constant="12" id="nFt-3k-SLK"/>
                                         </constraints>
                                         <size key="customSize" width="306.5" height="64"/>
                                     </collectionViewCell>
@@ -266,6 +267,9 @@
             <point key="canvasLocation" x="794" y="25"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="radio-checked.png" width="100" height="100"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

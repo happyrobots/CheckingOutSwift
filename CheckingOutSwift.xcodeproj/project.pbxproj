@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0C201E0E197FDC63003E9649 /* QuizStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C201E0D197FDC63003E9649 /* QuizStoryboard.storyboard */; };
+		0C586DBC198211A3002EE75C /* radio-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C586DBA198211A3002EE75C /* radio-checked.png */; };
+		0C586DBD198211A3002EE75C /* radio-unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C586DBB198211A3002EE75C /* radio-unchecked.png */; };
+		0C586DC019821283002EE75C /* radio-checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C586DBE19821283002EE75C /* radio-checked@2x.png */; };
+		0C586DC119821283002EE75C /* radio-unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C586DBF19821283002EE75C /* radio-unchecked@2x.png */; };
+		0C586DC8198216AF002EE75C /* trader-expert.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C586DC2198216AF002EE75C /* trader-expert.png */; };
+		0C586DC9198216AF002EE75C /* trader-expert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C586DC3198216AF002EE75C /* trader-expert@2x.png */; };
+		0C586DCA198216AF002EE75C /* trader-noob.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C586DC4198216AF002EE75C /* trader-noob.png */; };
+		0C586DCB198216AF002EE75C /* trader-noob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C586DC5198216AF002EE75C /* trader-noob@2x.png */; };
+		0C586DCC198216AF002EE75C /* trader-okay.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C586DC6198216AF002EE75C /* trader-okay.png */; };
+		0C586DCD198216AF002EE75C /* trader-okay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C586DC7198216AF002EE75C /* trader-okay@2x.png */; };
 		0CC4E0FA1980F1DE00A45ECB /* OpponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC4E0F91980F1DE00A45ECB /* OpponentPickerViewController.swift */; };
 		0CC4E0FC1980F3A800A45ECB /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC4E0FB1980F3A800A45ECB /* QuestionViewController.swift */; };
 		0CEBEDB61967B0BA0083AEE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBEDB51967B0BA0083AEE2 /* AppDelegate.swift */; };
@@ -31,6 +41,16 @@
 
 /* Begin PBXFileReference section */
 		0C201E0D197FDC63003E9649 /* QuizStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QuizStoryboard.storyboard; sourceTree = "<group>"; };
+		0C586DBA198211A3002EE75C /* radio-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-checked.png"; sourceTree = "<group>"; };
+		0C586DBB198211A3002EE75C /* radio-unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-unchecked.png"; sourceTree = "<group>"; };
+		0C586DBE19821283002EE75C /* radio-checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-checked@2x.png"; sourceTree = "<group>"; };
+		0C586DBF19821283002EE75C /* radio-unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-unchecked@2x.png"; sourceTree = "<group>"; };
+		0C586DC2198216AF002EE75C /* trader-expert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trader-expert.png"; sourceTree = "<group>"; };
+		0C586DC3198216AF002EE75C /* trader-expert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trader-expert@2x.png"; sourceTree = "<group>"; };
+		0C586DC4198216AF002EE75C /* trader-noob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trader-noob.png"; sourceTree = "<group>"; };
+		0C586DC5198216AF002EE75C /* trader-noob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trader-noob@2x.png"; sourceTree = "<group>"; };
+		0C586DC6198216AF002EE75C /* trader-okay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trader-okay.png"; sourceTree = "<group>"; };
+		0C586DC7198216AF002EE75C /* trader-okay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trader-okay@2x.png"; sourceTree = "<group>"; };
 		0CC4E0F91980F1DE00A45ECB /* OpponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpponentPickerViewController.swift; sourceTree = "<group>"; };
 		0CC4E0FB1980F3A800A45ECB /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		0CEBEDB01967B0BA0083AEE2 /* CheckingOutSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckingOutSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +87,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C586DB8198211A3002EE75C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C586DB9198211A3002EE75C /* Images */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		0C586DB9198211A3002EE75C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0C586DC2198216AF002EE75C /* trader-expert.png */,
+				0C586DC3198216AF002EE75C /* trader-expert@2x.png */,
+				0C586DC4198216AF002EE75C /* trader-noob.png */,
+				0C586DC5198216AF002EE75C /* trader-noob@2x.png */,
+				0C586DC6198216AF002EE75C /* trader-okay.png */,
+				0C586DC7198216AF002EE75C /* trader-okay@2x.png */,
+				0C586DBE19821283002EE75C /* radio-checked@2x.png */,
+				0C586DBF19821283002EE75C /* radio-unchecked@2x.png */,
+				0C586DBA198211A3002EE75C /* radio-checked.png */,
+				0C586DBB198211A3002EE75C /* radio-unchecked.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		0CEBEDA71967B0BA0083AEE2 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +135,7 @@
 		0CEBEDB21967B0BA0083AEE2 /* CheckingOutSwift */ = {
 			isa = PBXGroup;
 			children = (
+				0C586DB8198211A3002EE75C /* Resources */,
 				0CEBEDB51967B0BA0083AEE2 /* AppDelegate.swift */,
 				0CEBEDB71967B0BA0083AEE2 /* Images.xcassets */,
 				0CEBEDB31967B0BA0083AEE2 /* Supporting Files */,
@@ -219,8 +265,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CEBEDD01967B5090083AEE2 /* MainStoryboard.storyboard in Resources */,
+				0C586DCB198216AF002EE75C /* trader-noob@2x.png in Resources */,
 				0C201E0E197FDC63003E9649 /* QuizStoryboard.storyboard in Resources */,
+				0C586DC019821283002EE75C /* radio-checked@2x.png in Resources */,
+				0C586DC8198216AF002EE75C /* trader-expert.png in Resources */,
 				0CEBEDB81967B0BA0083AEE2 /* Images.xcassets in Resources */,
+				0C586DC119821283002EE75C /* radio-unchecked@2x.png in Resources */,
+				0C586DCC198216AF002EE75C /* trader-okay.png in Resources */,
+				0C586DBD198211A3002EE75C /* radio-unchecked.png in Resources */,
+				0C586DC9198216AF002EE75C /* trader-expert@2x.png in Resources */,
+				0C586DBC198211A3002EE75C /* radio-checked.png in Resources */,
+				0C586DCA198216AF002EE75C /* trader-noob.png in Resources */,
+				0C586DCD198216AF002EE75C /* trader-okay@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

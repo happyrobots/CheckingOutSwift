@@ -13,6 +13,7 @@ class OpponentPickerViewController: UIViewController {
     private var pickingLabelTimer : NSTimer?
     private var opponentTimer : NSTimer?
     private var continueButtonTimer : NSTimer?
+    private var friendPicker : RandomCompFriendPicker = RandomCompFriendPicker()
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -73,7 +74,7 @@ class OpponentPickerViewController: UIViewController {
     }
 
     func updateOpponent() {
-        var randomFriend = Friend.random()
+        var randomFriend = friendPicker.pick()
         opponentImageView.image = randomFriend.image
         opponentNameLabel.text = randomFriend.name
         opponentMottoLabel.text =  randomFriend.motto
