@@ -24,10 +24,20 @@ class AnswerCell : UICollectionViewCell {
     }
 
     override func touchesEnded(touches: NSSet!, withEvent event: UIEvent!) {
-        super.touchesEnded(touches, withEvent: event)
-        UIView.animateWithDuration(0.1, animations: {
-            self.backgroundColor = self.originalBackgroundColor
-        })
+        var touch = touches.allObjects[0] as UITouch
+        var touchUpInside = self.pointInside(touch.locationInView(self), withEvent: event)
+        if touchUpInside {
+            super.touchesEnded(touches, withEvent: event)
+            UIView.animateWithDuration(0.1, animations: {
+                self.backgroundColor = self.originalBackgroundColor
+            })
+        } else {
+            // touch up outside
+            super.touchesEnded(touches, withEvent: event)
+            UIView.animateWithDuration(0.1, animations: {
+                self.backgroundColor = self.originalBackgroundColor
+            })
+        }
     }
 
     override func touchesMoved(touches: NSSet!, withEvent event: UIEvent!) {
