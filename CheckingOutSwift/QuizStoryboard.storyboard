@@ -148,7 +148,7 @@
                                             <constraint firstItem="noZ-73-nyO" firstAttribute="leading" secondItem="0yZ-lA-iYl" secondAttribute="leading" constant="10" id="rB0-L5-1MK"/>
                                         </constraints>
                                     </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AnswerCell" id="JQg-zG-1Ay">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AnswerCell" id="JQg-zG-1Ay" customClass="AnswerCell" customModule="CheckingOutSwift" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">

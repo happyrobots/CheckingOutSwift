@@ -20,6 +20,7 @@
 		0C586DCD198216AF002EE75C /* trader-okay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C586DC7198216AF002EE75C /* trader-okay@2x.png */; };
 		0CC4E0FA1980F1DE00A45ECB /* OpponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC4E0F91980F1DE00A45ECB /* OpponentPickerViewController.swift */; };
 		0CC4E0FC1980F3A800A45ECB /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC4E0FB1980F3A800A45ECB /* QuestionViewController.swift */; };
+		0CE2627A1987500E0068A61C /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE262791987500E0068A61C /* AnswerCell.swift */; };
 		0CEBEDB61967B0BA0083AEE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBEDB51967B0BA0083AEE2 /* AppDelegate.swift */; };
 		0CEBEDB81967B0BA0083AEE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEBEDB71967B0BA0083AEE2 /* Images.xcassets */; };
 		0CEBEDC41967B0BA0083AEE2 /* CheckingOutSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBEDC31967B0BA0083AEE2 /* CheckingOutSwiftTests.swift */; };
@@ -53,6 +54,7 @@
 		0C586DC7198216AF002EE75C /* trader-okay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trader-okay@2x.png"; sourceTree = "<group>"; };
 		0CC4E0F91980F1DE00A45ECB /* OpponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpponentPickerViewController.swift; sourceTree = "<group>"; };
 		0CC4E0FB1980F3A800A45ECB /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		0CE262791987500E0068A61C /* AnswerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
 		0CEBEDB01967B0BA0083AEE2 /* CheckingOutSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckingOutSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEBEDB41967B0BA0083AEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CEBEDB51967B0BA0083AEE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				0C201E0D197FDC63003E9649 /* QuizStoryboard.storyboard */,
 				0CC4E0F91980F1DE00A45ECB /* OpponentPickerViewController.swift */,
 				0CC4E0FB1980F3A800A45ECB /* QuestionViewController.swift */,
+				0CE262791987500E0068A61C /* AnswerCell.swift */,
 			);
 			path = CheckingOutSwift;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				0CEBEDD21967BC3F0083AEE2 /* Friend.swift in Sources */,
 				0CC4E0FC1980F3A800A45ECB /* QuestionViewController.swift in Sources */,
 				0CC4E0FA1980F1DE00A45ECB /* OpponentPickerViewController.swift in Sources */,
+				0CE2627A1987500E0068A61C /* AnswerCell.swift in Sources */,
 				0CEBEDCE1967B1AB0083AEE2 /* FriendsViewController.swift in Sources */,
 				0CEBEDB61967B0BA0083AEE2 /* AppDelegate.swift in Sources */,
 			);
