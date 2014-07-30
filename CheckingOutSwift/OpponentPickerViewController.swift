@@ -80,7 +80,36 @@ class OpponentPickerViewController: UIViewController {
         opponentMottoLabel.text =  randomFriend.motto
     }
 
-    @IBAction func didTapContinueButton(sender: AnyObject) {
-        self.performSegueWithIdentifier("pushQuestionFromOpponent", sender: nil)
+    @IBAction func didTouchDownContinueButton(sender: UIButton) {
+        UIView.animateWithDuration(0.1, animations: {
+            sender.alpha = 0.8
+            sender.transform = CGAffineTransformMakeScale(0.9, 0.9)
+            }, completion: { (completed: Bool) -> Void in
+            })
+    }
+
+    @IBAction func didTouchCancelContinueButton(sender: UIButton) {
+        UIView.animateWithDuration(0.1, animations: {
+            sender.alpha = 1
+            sender.transform = CGAffineTransformIdentity
+            }, completion: { (completed: Bool) -> Void in
+            })
+    }
+
+    @IBAction func didTouchUpOutsideContinueButton(sender: UIButton) {
+        self.didTouchCancelContinueButton(sender)
+    }
+
+    @IBAction func didTapContinueButton(sender: UIButton) {
+        UIView.animateWithDuration(0.1, animations: {
+            sender.alpha = 1
+            sender.transform = CGAffineTransformMakeScale(1.1, 1.1)
+            }, completion: { (completed: Bool) -> Void in
+                UIView.animateWithDuration(0.1, animations: {
+                    sender.transform = CGAffineTransformIdentity
+                    }, completion: { (completed: Bool) -> Void in
+                        self.performSegueWithIdentifier("pushQuestionFromOpponent", sender: nil)
+                    })
+            })
     }
 }
